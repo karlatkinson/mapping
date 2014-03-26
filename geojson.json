@@ -1,0 +1,17 @@
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+            "type": "Feature",
+            "properties": {
+                "name": "The Hare & Hounds",
+                "amenity": "Hotel",
+                "popupContent": "This is the popup content!"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-3.0549, 53.8261]
+            }
+      }
+   ]
+}

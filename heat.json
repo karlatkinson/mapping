@@ -1,0 +1,85 @@
+eqfeed_callback(
+{
+   "type":"FeatureCollection",
+   "features":[
+      {
+            "type": "Feature",
+            "properties": {
+                "name": "The Hare & Hounds",
+                "amenity": "Hotel",
+                "popupContent": "This is the popup content!",
+                "mag": 4,
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-3.0549, 53.8261]
+            }
+      },
+      {
+            "type": "Feature",
+            "properties": {
+                "name": "The Hare & Hounds",
+                "amenity": "Hotel",
+                "popupContent": "This is the popup content!",
+                "mag": 4,
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-3.0549, 54.8261]
+            }
+      },
+      {
+            "type": "Feature",
+            "properties": {
+                "name": "The Hare & Hounds",
+                "amenity": "Hotel",
+                "popupContent": "This is the popup content!",
+                "mag": 5,
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-2.0549, 53.8261]
+            }
+      },
+      {
+            "type": "Feature",
+            "properties": {
+                "name": "The Hare & Hounds",
+                "amenity": "Hotel",
+                "popupContent": "This is the popup content!",
+                "mag": 4,
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-2.0444, 50.8261]
+            }
+      },
+      {
+            "type": "Feature",
+            "properties": {
+                "name": "The Hare & Hounds",
+                "amenity": "Hotel",
+                "popupContent": "This is the popup content!",
+                "mag": 4,
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-2.0549, 50.722]
+            }
+      },
+      {
+            "type": "Feature",
+            "properties": {
+                "name": "The Hare & Hounds",
+                "amenity": "Hotel",
+                "popupContent": "This is the popup content!",
+                "mag": 4,
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-2.333, 50.8261]
+            }
+      }
+   ]
+  }
+)

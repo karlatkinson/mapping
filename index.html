@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5LZs5ObwKAaiiDKLLJMOzbVTFjxnA3FE&sensor=false">
+    </script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=geometry,visualization&sensor=false">
+	</script>
+    <script type="text/javascript">
+		var map;
+		function initialize() {
+			// Create a simple map.
+			map = new google.maps.Map(document.getElementById('map-canvas'), {
+			zoom: 6,
+			center: {lat: 52.4862430, lng: -1.8904010},
+			});
+
+			map.data.loadGeoJson('http://localhost/booking-map/geojson.json');
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"/>
+  </body>
+</html>
