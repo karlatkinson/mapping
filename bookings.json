@@ -1,4 +1,3 @@
-eqfeed_callback(
 {
    "type":"FeatureCollection",
    "features":[
@@ -8,7 +7,7 @@ eqfeed_callback(
                 "name": "The Hare & Hounds",
                 "amenity": "Hotel",
                 "popupContent": "This is the popup content!",
-                "commission": 16,
+                "commission": 16
             },
             "geometry": {
                 "type": "Point",
@@ -21,7 +20,7 @@ eqfeed_callback(
                 "name": "The Hare & Hounds",
                 "amenity": "Hotel",
                 "popupContent": "This is the popup content!",
-                "commission": 24.99,
+                "commission": 24.99
             },
             "geometry": {
                 "type": "Point",
@@ -34,7 +33,7 @@ eqfeed_callback(
                 "name": "The Hare & Hounds",
                 "amenity": "Hotel",
                 "popupContent": "This is the popup content!",
-                "commission": 17.50,
+                "commission": 17.50
             },
             "geometry": {
                 "type": "Point",
@@ -47,7 +46,7 @@ eqfeed_callback(
                 "name": "The Hare & Hounds",
                 "amenity": "Hotel",
                 "popupContent": "This is the popup content!",
-                "commission": 30.40,
+                "commission": 30.40
             },
             "geometry": {
                 "type": "Point",
@@ -60,7 +59,7 @@ eqfeed_callback(
                 "name": "The Hare & Hounds",
                 "amenity": "Hotel",
                 "popupContent": "This is the popup content!",
-                "commission": 80,
+                "commission": 80
             },
             "geometry": {
                 "type": "Point",
@@ -73,7 +72,7 @@ eqfeed_callback(
                 "name": "The Hare & Hounds",
                 "amenity": "Hotel",
                 "popupContent": "This is the popup content!",
-                "commission": 35.11,
+                "commission": 35.11
             },
             "geometry": {
                 "type": "Point",
@@ -81,5 +80,4 @@ eqfeed_callback(
             }
       }
    ]
-  }
-)
+}

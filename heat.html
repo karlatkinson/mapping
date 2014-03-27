@@ -30,12 +30,15 @@
         document.getElementsByTagName('head')[0].appendChild(script);
       }
 
-      function getCircle(magnitude) {
+      function getCircle(commission) {
+
+        var opacity = commission / 100;
+
         var circle = {
           path: google.maps.SymbolPath.CIRCLE,
-          fillColor: 'red',
-          fillOpacity: .2,
-          scale: Math.pow(2, magnitude) / 2,
+          fillColor: 'blue',
+          fillOpacity: 0.3,
+          scale: commission,
           strokeColor: 'white',
           strokeWeight: .5
         };
@@ -50,7 +53,7 @@
           var marker = new google.maps.Marker({
             position: latLng,
             map: map,
-            icon: getCircle(earthquake.properties.mag)
+            icon: getCircle(earthquake.properties.commission)
           });
         }
       }
